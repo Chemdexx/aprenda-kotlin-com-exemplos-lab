@@ -23,7 +23,7 @@ data class Formacao(val name: String, var conteudos: List<ConteudoEducacional>) 
 
     fun printConteudoEducacional(){
         for (cont in conteudos){
-            println("${cont.nome} - ${cont.duracao}min. - (${cont.nivel})")
+            println("${cont.nome} - ${cont.duracao} horas - (${cont.nivel})")
         }
     }
 }
